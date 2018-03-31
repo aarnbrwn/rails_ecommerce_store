@@ -3,11 +3,17 @@
 one:
   title: MyString
   description: MyText
-  image_url: MyString
+  image_url: dawn.jpg
   price: 9.99
 
 two:
   title: MyString
   description: MyText
-  image_url: MyString
+  image_url: dawn.jpg
   price: 9.99
+
+ruby:
+  title: soap
+  description: soap
+  price: 45.45
+  image_url: dawn.jpg
