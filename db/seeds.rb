@@ -9,19 +9,26 @@
 
 Product.delete_all
 
-Product.create!(title: '7 mobile apps in seven weeks',
-                description: %{<p><em>native aps</em> yada yada yada</p>},
-                image_url: 'dawn.jpg',
-                price: 26.00)
-Product.create!(title: '7 mobile apps in seven weeks',
-                description: %{<p><em>native aps</em> yada yada yada</p>},
-                image_url: 'dawn.jpg',
-                price: 26.00)
-Product.create!(title: '7 mobile apps in seven weeks',
-                description: %{<p><em>native aps</em> yada yada yada</p>},
-                image_url: 'dawn.jpg',
-                price: 26.00)
-Product.create!(title: '7 mobile apps in seven weeks',
-                description: %{<p><em>native aps</em> yada yada yada</p>},
-                image_url: 'dawn.jpg',
-                price: 26.00)
+Product.create!(title: 'OG Forbidden Fruit',
+                description: 'Original Flavor',
+                image_url: 'og.jpeg',
+                price: 420.69)
+Product.create!(title: 'Pink Forbidden Fruit',
+                description: 'Moonlight Breeze',
+                image_url: 'og.jpeg',
+                price: 420.69)
+Product.create!(title: 'Purple Forbidden Fruit',
+                description: 'Spring Meadow',
+                image_url: 'og.jpeg',
+                price: 420.69)
+Product.create!(title: 'Green Forbidden Fruit',
+                description: 'Ocean Mist',
+                image_url: 'og.jpeg',
+                price: 420.69)
+Product.create!(title: 'Mystery Forbidden Fruit',
+                description: 'Take your chances',
+                image_url: 'og.jpeg',
+                price: 420.69)
+
+User.create!(username: 'admin',
+             password_digest: BCrypt::Password.create('1'))
